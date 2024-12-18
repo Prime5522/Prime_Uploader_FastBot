@@ -20,7 +20,7 @@ from config import Config
 TOKENS = {}
 VERIFIED = {}
 
-LOG_TEXT_P = """#NewUser
+LOG_TEXT_P = """#UploderBot_NewUser
 ID - <code>{}</code>
 Nᴀᴍᴇ - {}"""
 
