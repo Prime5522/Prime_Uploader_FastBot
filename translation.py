@@ -68,26 +68,26 @@ class Translation(object):
     )
     TECH_VJ_HELP_BUTTONS = InlineKeyboardMarkup(
         [[
-            InlineKeyboardButton('💝 sᴜʙsᴄʀɪʙᴇ ᴍʏ ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ', url='https://youtube.com/@Tech_VJ')
+            InlineKeyboardButton('💬 ᴘʀɪᴍᴇ ʙᴏᴛz sᴜᴩᴩᴏʀᴛ ɢʀᴏᴜᴩ 💬', url='https://t.me/Prime_botz_Support')
         ], [
-            InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/vj_bot_disscussion'),
-            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/vj_botz')
+            InlineKeyboardButton('🌟 ᴍᴏᴠɪᴇs ᴄʜᴀɴɴᴇʟ 🌟', url='https://t.me/Prime_Movies4U'),
+            InlineKeyboardButton('✇ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ ✇', url='https://t.me/Prime_botz')
         ], [
-            InlineKeyboardButton('🏠 ʜᴏᴍᴇ', callback_data='home'),
-            InlineKeyboardButton('🦊 ᴀʙᴏᴜᴛ', callback_data='about')
+            InlineKeyboardButton('❓ ʜᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('💁‍♂️ ᴀʙᴏᴜᴛ', callback_data='about')
         ], [
             InlineKeyboardButton('📛 ᴄʟᴏsᴇ', callback_data='close')
         ]]
     )
     TECH_VJ_ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
-            InlineKeyboardButton('💝 sᴜʙsᴄʀɪʙᴇ ᴍʏ ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ', url='https://youtube.com/@Tech_VJ')
+            InlineKeyboardButton('💬 ᴘʀɪᴍᴇ ʙᴏᴛz sᴜᴩᴩᴏʀᴛ ɢʀᴏᴜᴩ 💬', url='https://t.me/Prime_botz_Support')
         ], [
-            InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/vj_bot_disscussion'),
-            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/vj_botz')
+            InlineKeyboardButton('🌟 ᴍᴏᴠɪᴇs ᴄʜᴀɴɴᴇʟ 🌟', url='https://t.me/Prime_Movies4U'),
+            InlineKeyboardButton('✇ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ ✇', url='https://t.me/Prime_botz')
         ], [
-            InlineKeyboardButton('🏠 ʜᴏᴍᴇ', callback_data='home'),
-            InlineKeyboardButton('❓ ʜᴇʟᴘ', callback_data='help')
+            InlineKeyboardButton('❓ ʜᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('💁‍♂️ ᴀʙᴏᴜᴛ', callback_data='about')
         ], [
             InlineKeyboardButton('📛 ᴄʟᴏsᴇ', callback_data='close')
         ]]
