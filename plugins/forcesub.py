@@ -34,7 +34,7 @@ async def handle_force_sub(bot: Client, update: Message):
         if user.status == "kicked":
             await bot.send_message(
                 chat_id=update.from_user.id,
-                text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/vj_bot_disscussion).",
+                text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/Prime_botz_Support).",
                 disable_web_page_preview=True
             )
             return 400
@@ -46,12 +46,16 @@ async def handle_force_sub(bot: Client, update: Message):
             return 200
         await bot.send_message(
             chat_id=update.from_user.id,
-            text="**Please Join My Updates Channel to use this Bot!**\n\n"
-                 "Due to Overload, Only Channel Subscribers can use this Bot!",
+            text = (
+    "Iғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴜꜱᴇ ᴍᴇ ғɪʀꜱᴛ ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ Jᴏɪɴ ᴏᴜʀ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ.\n\n"
+    "ғɪʀꜱᴛ, ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ '✇ Jᴏɪɴ Oᴜʀ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇' ʙᴜᴛᴛᴏɴ, "
+    "ᴛʜᴇɴ, ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ 'ʀᴇᴏᴜᴇꜱᴛ ᴛᴏ Jᴏɪɴ' ʙᴜᴛᴛᴏɴ.\n\n"
+    "ᴀғᴛᴇʀ ᴛʜᴀᴛ ᴄᴏᴍᴇ ʜᴇʀᴇ ᴀɢᴀɪɴ ᴀɴᴅ 🔄 ᴄʟɪᴄᴋ ᴛᴏ ᴛʀʏ ᴀɢᴀɪɴ ♻️."
+            ),
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🤖 Join Updates Channel", url=invite_link.invite_link)
+                        InlineKeyboardButton("✇ Jᴏɪɴ Oᴜʀ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇", url=invite_link.invite_link)
                     ],
                     [
                         InlineKeyboardButton("🔄 Refresh 🔄", callback_data="refreshForceSub")
@@ -63,7 +67,7 @@ async def handle_force_sub(bot: Client, update: Message):
     except Exception:
         await bot.send_message(
             chat_id=update.from_user.id,
-            text="Something went Wrong. Contact my [Support Group](https://t.me/vj_bot_disscussion).",
+            text="Something went Wrong. Contact my [Support Group](https://t.me/Prime_botz_Support).",
             disable_web_page_preview=True
         )
         return 200
