@@ -1,16 +1,14 @@
 <p align="center">
-  <img src="https://graph.org/file/d57d6f83abb6b8d0efb02.jpg" alt="VJ-URL-UPLOADER-BOT Logo">
+  <img src="https://envs.sh/8Nc.jpg" alt="PRIME_UPLOADER_FASTBOT Logo">
 </p>
 <h1 align="center">
-  VJ URL UPLOADER BOT
+  PRIME UPLOADER FASTBOT
 </h1>
 
 
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+VJ-URL-UPLOADER-BOT;A+Highly+Advance+Url+Uploader+Bot;Made+By+Yt-@Tech_VJ!;With+Token+Verification+Feature;Broadcast+Force+Subscribe+Feature;A+Bot+With+Fully+Advanced+Feature!;Must+Give+Credit+To+Tech+VJ;Thank+You!)
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+PRIME-URL-UPLOADER-BOT;A+Highly+Advance+Url+Uploader+Bot;Made+By+Tg-@Prime_Botz!;With+Token+Verification+Feature;Broadcast+Force+Subscribe+Feature;A+Bot+With+Fully+Advanced+Feature!;Must+Give+Credit+To+VJ;Thank+You!)
 </p>
-
-<b>[Deploy Tutorial Video](https://youtu.be/_H8xBeBx_io)</b>
 
 
 ## Features
@@ -63,25 +61,7 @@ Heroku BuildPack :-
 
 💖 And Thank You So Much To All Who Help In This Journey 💕
 
-Copyright ©️ [Tech VJ](https://telegram.me/Kingvj01)
+Copyright ©️ [VJ](https://telegram.me/Kingvj01)
 
 </b>
 </details>
-
-## About Owner 
-
-<b><details><summary>Tap On Me For See Details Of Owner</summary>
-
-- YouTube Channel : [Tech VJ](https://youtube.com/@Tech_VJ)
-- Telegram Channel : [VJ Botz](https://telegram.me/VJ_Botz)
-- Contact Link : [King VJ](https://telegram.me/Kingvj01)
-- Instagram Id Link : [Tech VJ](https://instagram.com/tech.vj)
-
-</b>
-</details>
-
-
-### Copyright ©️ [Tech VJ](https://telegram.me/Kingvj01)
-
-<b>Selling This Repo Or Code Of This Repo For Money Is Strictly Prohibited 🚫</b>
-
