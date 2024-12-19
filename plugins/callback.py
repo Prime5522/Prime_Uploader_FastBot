@@ -55,7 +55,7 @@ async def button(bot, update):
                 user = await bot.get_chat_member(channel_chat_id, update.message.chat.id)
                 if user.status == "kicked":
                     await update.message.edit(
-                        text="Sorry Sir, You are Banned to use me. Contact my [owner](https://t.me/kingvj01).",
+                        text="Sorry Sir, You are Banned to use me. Contact my [owner](https://t.me/Prime_Nayem).",
                         disable_web_page_preview=True
                     )
                     return
@@ -63,11 +63,11 @@ async def button(bot, update):
                 chat_id = channel_chat_id
                 invite_link = await get_invite_link(bot, chat_id)
                 await update.message.edit(
-                    text="**I like Your Smartness But Don't Be Oversmart! 😑**\n\n",
+                    text="**I like Your Smartness But Don't Be Oversmart! 😑 Fast join Our Updates Channel 😉 Than Click to Refresh Button 🔄**\n\n",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("🤖 Join Updates Channel", url=invite_link.invite_link)
+                                InlineKeyboardButton("✇ Jᴏɪɴ Oᴜʀ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇", url=invite_link.invite_link)
                             ],
                             [
                                 InlineKeyboardButton("🔄 Refresh 🔄", callback_data="refreshForceSub")
@@ -78,7 +78,7 @@ async def button(bot, update):
                 return
             except Exception:
                 await update.message.edit(
-                    text="Something went Wrong. Contact my [owner](https://t.me/kingvj01).",
+                    text="Something went Wrong. Contact my [owner](https://t.me/Prime_Nayem).",
                     disable_web_page_preview=True
                 )
                 return
